@@ -1,0 +1,82 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Tomek/.m2/repository/jakarta/platform/jakarta.jakartaee-api/8.0.0/jakarta.jakartaee-api-8.0.0.jar;C:/Users/Tomek/.m2/repository/org/eclipse/microprofile/microprofile/3.0/microprofile-3.0.pom;C:/Users/Tomek/.m2/repository/javax/enterprise/cdi-api/2.0/cdi-api-2.0.jar;C:/Users/Tomek/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar;C:/Users/Tomek/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar;C:/Users/Tomek/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar;C:/Users/Tomek/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar;C:/Users/Tomek/.m2/repository/javax/json/bind/javax.json.bind-api/1.0/javax.json.bind-api-1.0.jar;C:/Users/Tomek/.m2/repository/javax/json/javax.json-api/1.1/javax.json-api-1.1.jar;C:/Users/Tomek/.m2/repository/javax/annotation/javax.annotation-api/1.3/javax.annotation-api-1.3.jar;C:/Users/Tomek/.m2/repository/org/eclipse/microprofile/config/microprofile-config-api/1.3/microprofile-config-api-1.3.jar;C:/Users/Tomek/.m2/repository/org/osgi/org.osgi.annotation.versioning/1.0.0/org.osgi.annotation.versioning-1.0.0.jar;C:/Users/Tomek/.m2/repository/org/eclipse/microprofile/fault-tolerance/microprofile-fault-tolerance-api/2.0/microprofile-fault-tolerance-api-2.0.jar;C:/Users/Tomek/.m2/repository/org/eclipse/microprofile/health/microprofile-health-api/2.0/microprofile-health-api-2.0.jar;C:/Users/Tomek/.m2/repository/org/eclipse/microprofile/metrics/microprofile-metrics-api/2.0.0/microprofile-metrics-api-2.0.0.jar;C:/Users/Tomek/.m2/repository/org/eclipse/microprofile/jwt/microprofile-jwt-auth-api/1.1/microprofile-jwt-auth-api-1.1.jar;C:/Users/Tomek/.m2/repository/org/eclipse/microprofile/openapi/microprofile-openapi-api/1.1/microprofile-openapi-api-1.1.jar;C:/Users/Tomek/.m2/repository/org/eclipse/microprofile/rest/client/microprofile-rest-client-api/1.3/microprofile-rest-client-api-1.3.jar;C:/Users/Tomek/.m2/repository/org/eclipse/microprofile/opentracing/microprofile-opentracing-api/1.3/microprofile-opentracing-api-1.3.jar;C:/Users/Tomek/.m2/repository/org/apache/derbyclient/derby-client/10.14.2.0/derby-client-10.14.2.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'E:/javaWeb/Java Web Lab/minesweeperWeb/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/javaWeb/Java Web Lab/minesweeperWeb/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'minesweeperWeb 1.4 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'E:/javaWeb/Java Web Lab/minesweeperWeb/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'minesweeperWeb 1.4 API'
+pl.polsl.lab.model
+pl.polsl.lab.servlets
+'E:/javaWeb/Java Web Lab/minesweeperWeb/src/main/java/pl/polsl/lab/model/Board.java'
+'E:/javaWeb/Java Web Lab/minesweeperWeb/src/main/java/pl/polsl/lab/model/Cell.java'
+'E:/javaWeb/Java Web Lab/minesweeperWeb/src/main/java/pl/polsl/lab/model/CellException.java'
+'E:/javaWeb/Java Web Lab/minesweeperWeb/src/main/java/pl/polsl/lab/model/GameManager.java'
+'E:/javaWeb/Java Web Lab/minesweeperWeb/src/main/java/pl/polsl/lab/model/PositionOnBoard.java'
+'E:/javaWeb/Java Web Lab/minesweeperWeb/src/main/java/pl/polsl/lab/servlets/GameOverServlet.java'
+'E:/javaWeb/Java Web Lab/minesweeperWeb/src/main/java/pl/polsl/lab/servlets/GameServlet.java'
+'E:/javaWeb/Java Web Lab/minesweeperWeb/src/main/java/pl/polsl/lab/servlets/GameWonServlet.java'
+'E:/javaWeb/Java Web Lab/minesweeperWeb/src/main/java/pl/polsl/lab/servlets/ScoreServlet.java'
+C:\Users\Tomek\.m2\repository\jakarta\platform\jakarta.jakartaee-api\8.0.0\jakarta.jakartaee-api-8.0.0.jar = 1670229625668
+C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\microprofile\3.0\microprofile-3.0.pom = 1670229620283
+C:\Users\Tomek\.m2\repository\javax\enterprise\cdi-api\2.0\cdi-api-2.0.jar = 1670229624919
+C:\Users\Tomek\.m2\repository\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar = 1670229624896
+C:\Users\Tomek\.m2\repository\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar = 1670229624865
+C:\Users\Tomek\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar = 1667749407521
+C:\Users\Tomek\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.1\javax.ws.rs-api-2.1.jar = 1670229624923
+C:\Users\Tomek\.m2\repository\javax\json\bind\javax.json.bind-api\1.0\javax.json.bind-api-1.0.jar = 1670229624964
+C:\Users\Tomek\.m2\repository\javax\json\javax.json-api\1.1\javax.json-api-1.1.jar = 1670229625002
+C:\Users\Tomek\.m2\repository\javax\annotation\javax.annotation-api\1.3\javax.annotation-api-1.3.jar = 1670229625035
+C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\config\microprofile-config-api\1.3\microprofile-config-api-1.3.jar = 1670229625043
+C:\Users\Tomek\.m2\repository\org\osgi\org.osgi.annotation.versioning\1.0.0\org.osgi.annotation.versioning-1.0.0.jar = 1670229625047
+C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\fault-tolerance\microprofile-fault-tolerance-api\2.0\microprofile-fault-tolerance-api-2.0.jar = 1670229625090
+C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\health\microprofile-health-api\2.0\microprofile-health-api-2.0.jar = 1670229625115
+C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\metrics\microprofile-metrics-api\2.0.0\microprofile-metrics-api-2.0.0.jar = 1670229625125
+C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\jwt\microprofile-jwt-auth-api\1.1\microprofile-jwt-auth-api-1.1.jar = 1670229625122
+C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\openapi\microprofile-openapi-api\1.1\microprofile-openapi-api-1.1.jar = 1670229625198
+C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\rest\client\microprofile-rest-client-api\1.3\microprofile-rest-client-api-1.3.jar = 1670229625195
+C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\opentracing\microprofile-opentracing-api\1.3\microprofile-opentracing-api-1.3.jar = 1670229625202
+C:\Users\Tomek\.m2\repository\org\apache\derbyclient\derby-client\10.14.2.0\derby-client-10.14.2.0.jar = 1523034616000
+E:\javaWeb\Java Web Lab\minesweeperWeb\src\main\java = 1670792358931
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\allclasses-index.html = 1673808525767
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\allclasses.html = 1673808525800
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\allpackages-index.html = 1673808525778
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\constant-values.html = 1673808525558
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\deprecated-list.html = 1673808525789
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\element-list = 1673808525499
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\help-doc.html = 1673808525823
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\index-all.html = 1673808525755
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\index.html = 1673808525807
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\member-search-index.js = 1673808525739
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\member-search-index.zip = 1673808525751
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\overview-summary.html = 1673808525817
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\overview-tree.html = 1673808525703
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\package-search-index.js = 1673808525725
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\package-search-index.zip = 1673808525729
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\script.js = 1673808525843
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\search.js = 1673808525849
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\serialized-form.html = 1673808525575
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\stylesheet.css = 1673808525833
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\type-search-index.js = 1673808525731
+E:\javaWeb\Java Web Lab\minesweeperWeb\target\site\apidocs\type-search-index.zip = 1673808525736

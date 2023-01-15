@@ -1,0 +1,132 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+        background-color: lightslategrey;
+}
+
+
+.button {
+  background-color: lightgray; /* Green */
+  color: black;
+  /*padding: 15px 30px;*/
+  width : 32px;
+  height: 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+.parent {
+  margin: auto;
+  width: 50%;
+}
+
+.table-div {
+    text-align: center;
+}
+
+.clicked-button {
+  background-color: lightblue; /* Green */
+  color: black;
+  /*padding: 15px 30px;*/
+  width : 32px;
+  height: 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+.type-0 {
+    color: green;
+}
+.type-1 {
+    color:yellow;
+}
+
+.type-2 {
+    color:tomato;
+}
+
+.type-3 {
+    color:orange;
+}
+
+.type-4 {
+    color: purple;
+}
+
+.type-flag {
+    background-color: red;
+}
+
+.back-button {
+  background-color: dark-blue;
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+input[type=submit] {
+  background-color: dark-blue;
+  border: none;
+  color: #333333;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+

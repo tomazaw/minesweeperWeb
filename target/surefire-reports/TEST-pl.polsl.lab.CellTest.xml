@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pl.polsl.lab.CellTest" time="0.001" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="E:\javaWeb\Java Web Lab\minesweeperWeb\target\test-classes;E:\javaWeb\Java Web Lab\minesweeperWeb\target\classes;C:\Users\Tomek\.m2\repository\jakarta\platform\jakarta.jakartaee-api\8.0.0\jakarta.jakartaee-api-8.0.0.jar;C:\Users\Tomek\.m2\repository\javax\enterprise\cdi-api\2.0\cdi-api-2.0.jar;C:\Users\Tomek\.m2\repository\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;C:\Users\Tomek\.m2\repository\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;C:\Users\Tomek\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Tomek\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.1\javax.ws.rs-api-2.1.jar;C:\Users\Tomek\.m2\repository\javax\json\bind\javax.json.bind-api\1.0\javax.json.bind-api-1.0.jar;C:\Users\Tomek\.m2\repository\javax\json\javax.json-api\1.1\javax.json-api-1.1.jar;C:\Users\Tomek\.m2\repository\javax\annotation\javax.annotation-api\1.3\javax.annotation-api-1.3.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\config\microprofile-config-api\1.3\microprofile-config-api-1.3.jar;C:\Users\Tomek\.m2\repository\org\osgi\org.osgi.annotation.versioning\1.0.0\org.osgi.annotation.versioning-1.0.0.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\fault-tolerance\microprofile-fault-tolerance-api\2.0\microprofile-fault-tolerance-api-2.0.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\health\microprofile-health-api\2.0\microprofile-health-api-2.0.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\metrics\microprofile-metrics-api\2.0.0\microprofile-metrics-api-2.0.0.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\jwt\microprofile-jwt-auth-api\1.1\microprofile-jwt-auth-api-1.1.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\openapi\microprofile-openapi-api\1.1\microprofile-openapi-api-1.1.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\rest\client\microprofile-rest-client-api\1.3\microprofile-rest-client-api-1.3.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\opentracing\microprofile-opentracing-api\1.3\microprofile-opentracing-api-1.3.jar;C:\Users\Tomek\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.0\junit-jupiter-5.5.0.jar;C:\Users\Tomek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.0\junit-jupiter-api-5.5.0.jar;C:\Users\Tomek\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Tomek\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Tomek\.m2\repository\org\junit\platform\junit-platform-commons\1.5.0\junit-platform-commons-1.5.0.jar;C:\Users\Tomek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.0\junit-jupiter-params-5.5.0.jar;C:\Users\Tomek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.0\junit-jupiter-engine-5.5.0.jar;C:\Users\Tomek\.m2\repository\org\junit\platform\junit-platform-engine\1.5.0\junit-platform-engine-1.5.0.jar;C:\Users\Tomek\.m2\repository\org\mockito\mockito-core\3.1.0\mockito-core-3.1.0.jar;C:\Users\Tomek\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\Tomek\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\Tomek\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Tomek\.m2\repository\org\apache\derbyclient\derby-client\10.14.2.0\derby-client-10.14.2.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Tomek\AppData\Local\Temp\surefire1362236948612569063\surefirebooter15792088232369056474.jar C:\Users\Tomek\AppData\Local\Temp\surefire1362236948612569063 2023-01-15T19-47-30_092-jvmRun1 surefire6082403476829333473tmp surefire_09532667502107971851tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\javaWeb\Java Web Lab\minesweeperWeb\target\test-classes;E:\javaWeb\Java Web Lab\minesweeperWeb\target\classes;C:\Users\Tomek\.m2\repository\jakarta\platform\jakarta.jakartaee-api\8.0.0\jakarta.jakartaee-api-8.0.0.jar;C:\Users\Tomek\.m2\repository\javax\enterprise\cdi-api\2.0\cdi-api-2.0.jar;C:\Users\Tomek\.m2\repository\javax\el\javax.el-api\3.0.0\javax.el-api-3.0.0.jar;C:\Users\Tomek\.m2\repository\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;C:\Users\Tomek\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Tomek\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.1\javax.ws.rs-api-2.1.jar;C:\Users\Tomek\.m2\repository\javax\json\bind\javax.json.bind-api\1.0\javax.json.bind-api-1.0.jar;C:\Users\Tomek\.m2\repository\javax\json\javax.json-api\1.1\javax.json-api-1.1.jar;C:\Users\Tomek\.m2\repository\javax\annotation\javax.annotation-api\1.3\javax.annotation-api-1.3.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\config\microprofile-config-api\1.3\microprofile-config-api-1.3.jar;C:\Users\Tomek\.m2\repository\org\osgi\org.osgi.annotation.versioning\1.0.0\org.osgi.annotation.versioning-1.0.0.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\fault-tolerance\microprofile-fault-tolerance-api\2.0\microprofile-fault-tolerance-api-2.0.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\health\microprofile-health-api\2.0\microprofile-health-api-2.0.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\metrics\microprofile-metrics-api\2.0.0\microprofile-metrics-api-2.0.0.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\jwt\microprofile-jwt-auth-api\1.1\microprofile-jwt-auth-api-1.1.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\openapi\microprofile-openapi-api\1.1\microprofile-openapi-api-1.1.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\rest\client\microprofile-rest-client-api\1.3\microprofile-rest-client-api-1.3.jar;C:\Users\Tomek\.m2\repository\org\eclipse\microprofile\opentracing\microprofile-opentracing-api\1.3\microprofile-opentracing-api-1.3.jar;C:\Users\Tomek\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.0\junit-jupiter-5.5.0.jar;C:\Users\Tomek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.0\junit-jupiter-api-5.5.0.jar;C:\Users\Tomek\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Tomek\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Tomek\.m2\repository\org\junit\platform\junit-platform-commons\1.5.0\junit-platform-commons-1.5.0.jar;C:\Users\Tomek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.0\junit-jupiter-params-5.5.0.jar;C:\Users\Tomek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.0\junit-jupiter-engine-5.5.0.jar;C:\Users\Tomek\.m2\repository\org\junit\platform\junit-platform-engine\1.5.0\junit-platform-engine-1.5.0.jar;C:\Users\Tomek\.m2\repository\org\mockito\mockito-core\3.1.0\mockito-core-3.1.0.jar;C:\Users\Tomek\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\Tomek\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\Tomek\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Tomek\.m2\repository\org\apache\derbyclient\derby-client\10.14.2.0\derby-client-10.14.2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Tomek"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\javaWeb\Java Web Lab\minesweeperWeb"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tomek\AppData\Local\Temp\surefire1362236948612569063\surefirebooter15792088232369056474.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="user.name" value="Tomek"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-14\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Tomek\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Tomek\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="E:\javaWeb\Java Web Lab\minesweeperWeb"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Pliki\Biblioteki Visual Studio\SDL2\SDL2-2.0.20\lib\x64;C:\Pliki\MinGW\mingw64\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Users\Tomek\AppData\Local\Programs\Python\Python311;C:\Users\Tomek\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Tomek\AppData\Local\Microsoft\WindowsApps;C:\Users\Tomek\AppData\Local\Pandoc\;C:\Users\Tomek\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\Tomek\AppData\Local\Programs\Microsoft VS Code\bin;C:\Pliki\SFML_CLION\SFML-2.5.1\bin;C:\Users\Tomek\AppData\Roaming\npm;C:\Users\Tomek\.dotnet\tools;C:\Users\Tomek\AppData\Local\Programs\Python\Python311\Scripts;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testToString{boolean, boolean, boolean, int}[1]" classname="pl.polsl.lab.CellTest" time="0"/>
+  <testcase name="testToString{boolean, boolean, boolean, int}[2]" classname="pl.polsl.lab.CellTest" time="0"/>
+  <testcase name="testToString{boolean, boolean, boolean, int}[3]" classname="pl.polsl.lab.CellTest" time="0"/>
+  <testcase name="testToString{boolean, boolean, boolean, int}[4]" classname="pl.polsl.lab.CellTest" time="0"/>
+  <testcase name="testToString{boolean, boolean, boolean, int}[5]" classname="pl.polsl.lab.CellTest" time="0"/>
+  <testcase name="testReveal{int, int, int, boolean}[1]" classname="pl.polsl.lab.CellTest" time="0"/>
+  <testcase name="testReveal{int, int, int, boolean}[2]" classname="pl.polsl.lab.CellTest" time="0"/>
+  <testcase name="testReveal{int, int, int, boolean}[3]" classname="pl.polsl.lab.CellTest" time="0"/>
+  <testcase name="testReveal{int, int, int, boolean}[4]" classname="pl.polsl.lab.CellTest" time="0"/>
+  <testcase name="testReveal{int, int, int, boolean}[5]" classname="pl.polsl.lab.CellTest" time="0"/>
+</testsuite>

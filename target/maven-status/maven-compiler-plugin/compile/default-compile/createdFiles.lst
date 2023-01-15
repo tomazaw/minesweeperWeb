@@ -1,0 +1,9 @@
+pl\polsl\lab\model\GameManager.class
+pl\polsl\lab\model\PositionOnBoard.class
+pl\polsl\lab\servlets\GameOverServlet.class
+pl\polsl\lab\model\Board.class
+pl\polsl\lab\servlets\GameServlet.class
+pl\polsl\lab\servlets\ScoreServlet.class
+pl\polsl\lab\servlets\GameWonServlet.class
+pl\polsl\lab\model\Cell.class
+pl\polsl\lab\model\CellException.class
